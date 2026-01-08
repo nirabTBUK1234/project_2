@@ -1,10 +1,13 @@
 
 
 
+
+from manim import *
+import numpy as np
+
 def main():
     
-    from manim import *
-    import numpy as np
+
 
     class DoublePendulum(Scene):
         def construct(self):
