@@ -1,10 +1,35 @@
-# Python-generated files
+# ---------------- Python generated files ----------------
 __pycache__/
-*.py[oc]
+*.py[co]          # compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------- Build / distribution ----------------
 build/
 dist/
 wheels/
 *.egg-info
+*.egg
+*.manifest
+*.spec
 
-# Virtual environments
-.venv
+# ---------------- Virtual environments ----------------
+.venv/
+env/
+venv/
+
+# ---------------- Manim / media ----------------
+media/videos/1080p60/
+media/videos/720p30/
+media/images/
+
+# ---------------- IDE / editor ----------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------- OS generated ----------------
+.DS_Store
+Thumbs.db
